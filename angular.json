@@ -12,7 +12,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/projeto-angular",
+            "outputPath": "dist/NG-Store-Angular",
+            "baseHref": "/NG-Store-Angular/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
