@@ -1,0 +1,186 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+header {
+    background-color: #1e1e1e;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* Barra de Pesquisa*/
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    position: relative;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding-right: 40px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+/* icones*/
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons img {
+    width: 40px;
+    height: auto;
+}
+
+/* Contêineres e Grade */
+.grid-container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container-header-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+.container-header-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-toggler {
+    background: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    outline: none;
+    transition: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-toggler svg {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: #00a000;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container-header-1 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .header-site-logo {
+      margin-bottom: 10px;
+    }
+  
+    .search-bar {
+      flex: 1;
+      max-width: 100%; 
+      margin: 0 10px 10px 10px;
+    }
+  
+    .icons {
+      flex: 0 1 auto;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .container-header-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      flex-wrap: nowrap;
+      width: 100%;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .navbar-nav .nav-link {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-toggler-icon {
+      width: 30px; 
+      height: 30px; 
+      background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgc2Nyb2xsaW5nPSJjcm9zcyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yLjUgMTJhLjUuNSAwIDAgMSAuNS41IEgzYSAuNS41IDAgMCAxIC0uNS41IG0wLTRhLjUuNSA0IDAgMSAwLjc1LTIuNzYgbS0uNS0uNSAyLjc1LTIuNzYgMC0uNSAuNSIgLz4KPC9zdmc+'); /* SVG em Base64 */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: none; 
+      cursor: pointer; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-nav .nav-link {
+      margin-right: 0;
+      margin-bottom: 5px;
+      font-size: 0.9rem; 
+    }
+  
+    .search-bar input {
+      padding-right: 30px; 
+    }
+  
+    .icons img {
+      width: 30px; 
+    }
+  }

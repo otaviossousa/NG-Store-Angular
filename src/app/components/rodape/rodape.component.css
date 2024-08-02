@@ -1,0 +1,118 @@
+.Farticle-FooterSubMenu {
+    width: 100%;
+    background-color: #212121;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  .Farticle-FooterSubMenu .grid-container {
+    margin-left: 70px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .Farticle-FooterSubMenu .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Farticle-FooterSubMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Farticle-FooterSubMenu ul li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: #ffffff;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-bottom: 5px;
+  }
+  
+  .Farticle-FooterSubMenu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .Farticle-FooterSubMenu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer h4 {
+    color: #00a000;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .Farticle-FooterSocial {
+    background-color: #262626;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  footer ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
+  footer ul li img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  footer .Cinza {
+    color: #cccccc;
+  }
+  
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .Farticle-FooterSubMenu .row {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .Farticle-FooterSubMenu .col-xs-12 {
+      width: 100%;
+      padding: 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Farticle-FooterSubMenu .col-xs-12 h4,
+    .Farticle-FooterSubMenu .col-xs-12 ul {
+      text-align: center;
+    }
+  }

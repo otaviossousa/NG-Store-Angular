@@ -1,0 +1,79 @@
+main {
+    background-color: #21224e;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.btn-custom {
+    background-color: #00a000 !important;
+    color: white !important;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-custom img.btn-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-custom:hover {
+    background-color: #007a00 !important;
+}
+
+.custom-link {
+    color: #00a000 !important;
+}
+
+.custom-link:hover {
+    color: #007a00 !important;
+    text-decoration: underline;
+}
+
+.form-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 90%;
+        padding: 1rem;
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-label img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .btn-custom {
+        font-size: 0.9rem;
+    }
+}

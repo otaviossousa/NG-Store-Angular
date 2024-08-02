@@ -1,0 +1,138 @@
+main {
+    background-color: #21224e;
+    font-family: Arial, sans-serif;
+    padding: 60px;
+}
+
+.grid-container {
+    margin-top: 30px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Cabeçalho da Dock de Produtos */
+.products-dock-header {
+    background-color: #21224e;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+  
+  .products-dock-header > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .products-dock-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .products-dock-subtitle {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+
+  .btn__primary {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn__primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+
+
+/* Card*/
+.game-card {
+    max-width: 200px;
+    color: #fff;
+    background-color: #1e1e1e;
+}
+
+mat-card img {
+    height: auto;
+    width: auto;
+}
+
+mat-grid-list {
+    margin: 5px 0px;
+}
+
+mat-grid-title {
+    padding: 3px;
+    border-radius: 30px;
+}
+
+matt-card-header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.single-line-name {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    font-size: 1rem;
+    color: #ffffff;
+    max-width: 100%; 
+    display: block; 
+    box-sizing: border-box; 
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+mat-card-actions .desconto {
+    display: flex;
+    align-items: center;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.product-button {
+    background-color: #28a745 !important;
+    color: white !important;
+    border: none !important;
+    padding: 0.3rem 0.6rem !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.product-button:hover {
+    background-color: #0056b3 !important;
+}
+
+.add-favoritos a img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
