@@ -4,8 +4,8 @@ Esse projeto foi criado com [Angular CLI](https://github.com/angular/angular-cli
 
 ## Visualização do Projeto
 
-- [Site Principal](https://otaviossousa.github.io/NG-Store/index.html)
-- [Página de Login](https://otaviossousa.github.io/NG-Store/login.html)
+- [Site Principal](https://otaviossousa.github.io/NG-Store-Angular/inicio)
+- [Página de Login](https://otaviossousa.github.io/NG-Store-Angular/login)
 
 ## Protótipos
 
