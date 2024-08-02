@@ -2,6 +2,8 @@
 
 Esse projeto foi criado com [Angular CLI](https://github.com/angular/angular-cli) versão 15.0.4.
 
+Este projeto foi desenvolvido como parte do teste Framework Front-End com Consumo de API do curso Fullstack do SENAI. O objetivo foi criar um site funcional e estilizado para uma loja virtual utilizando o framework Angular, incluindo uma página inicial , de login e protótipos detalhados.
+
 ## Visualização do Projeto
 
 - [Site Principal](https://otaviossousa.github.io/NG-Store-Angular/inicio)
